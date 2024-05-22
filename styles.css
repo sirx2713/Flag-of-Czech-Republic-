@@ -1,0 +1,29 @@
+body{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    background-color: #FFDA78;
+}
+#main-div{
+    position: relative;
+}
+#main-div > #white-div{
+    height: 200px;
+    width: 800px;
+    background-color: white;
+    position: absolute;
+}
+#main-div > #red-div{
+    height: 200px;
+    width: 800px;
+    background-color: #D7141A;
+    position: absolute;
+    top: 200px;
+}
+#main-div > #triangle-div{
+    height: 0;
+    width: 0;
+    border-left: 300px solid #11457E;
+    border-bottom: 200px solid transparent;
+    border-top: 200px solid transparent;
+    position: absolute;
+}
